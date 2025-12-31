@@ -1,10 +1,9 @@
-# Part 0: Fundamentals of Web Apps
 
 This section focuses on the communication patterns between the browser and the server, specifically comparing traditional multi-page applications (MPA) with modern single-page applications (SPA).
 
 ---
+Exercise 0.4
 
-### Exercise 0.4: New Note Diagram (Traditional Web App)
 When a user saves a note in a traditional app, the browser sends a `POST` request, the server responds with a `302 Redirect`, and the browser performs a full page reload.
 
 ```mermaid
